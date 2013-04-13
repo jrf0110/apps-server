@@ -1,0 +1,17 @@
+{
+  "name": "apps.j0.hn",
+  "version": "0.0.1",
+  "description": "My personal apps srver",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jrf0110/apps-server.git"
+  },
+  "author": "John Fawcett",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "0f03bed9455ef5c47376d7855b20d266fa2af242"
+}
