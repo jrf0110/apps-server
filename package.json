@@ -10,6 +10,9 @@
     "type": "git",
     "url": "git://github.com/jrf0110/apps-server.git"
   },
+  "dependencies": {
+    "claude": "*"
+  },
   "author": "John Fawcett",
   "license": "BSD",
   "readmeFilename": "README.md",
