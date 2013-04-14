@@ -8,15 +8,14 @@ claude.init({
   }
 
 , nginx: {                // nginx
-    configFile:           '/usr/local/etc/nginx/nginx.conf'
+    // configFile:           '/usr/local/etc/nginx/nginx.conf'
   , includeDetection:     'include       mime.types;'
   , tab:                  '    '
-  , restart:              'nginx -s stop && nginx'
-  // , restart:              ['nginx ; nginx', '-s', 'stop']
+  // , restart:              'nginx -s stop && nginx'
   }
 
                           // misc
 , appDir:                 '/apps'
 , dataPath:               process.cwd() + '/data.js'
-, port:                   3001
+, port:                   3002
 });
