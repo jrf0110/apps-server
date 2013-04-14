@@ -17,5 +17,5 @@ claude.init({
                           // misc
 , appDir:                 '/apps'
 , dataPath:               process.cwd() + '/data.js'
-, port:                   3002
+, port:                   3003
 });
