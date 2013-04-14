@@ -9,7 +9,7 @@ claude.init({
 
 , nginx: {                // nginx
     // configFile:           '/usr/local/etc/nginx/nginx.conf'
-  , includeDetection:     'include       mime.types;'
+    includeDetection:     'include       mime.types;'
   , tab:                  '    '
   // , restart:              'nginx -s stop && nginx'
   }
